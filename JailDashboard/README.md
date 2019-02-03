@@ -25,7 +25,7 @@ This dashboard extract detention information from different data resources like 
 ## Documentation
 - User Instructions is included in the dashboard interface.
 - [Documentation](https://github.com/xiekt1993/Portfolio/blob/master/JailDashboard/Documentation.txt) contains data sources and fields descriptions.
-- [Final Group Representation](https://github.com/xiekt1993/Portfolio/blob/master/JailDashboard/Final%20Presentation.pdf)
+- [Final Presentation](https://github.com/xiekt1993/Portfolio/blob/master/JailDashboard/Final%20Presentation.pdf)
 
 ## Resources
 [Champaign County Sheriff](http://www1.co.champaign.il.us/SHERIFF/HOME.PHP).

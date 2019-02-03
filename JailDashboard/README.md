@@ -1,6 +1,8 @@
-# JailPopulationManagementDashboard
+# Jail Population Management Real-time Dashboard
 ## Overview
-This dashboard visualizes racial distribution of population in correctional facilities in Champaign County，IL. It provides real-time numbers and interactive charts that allows users to 1) have easier access to legal data on inmates who were held in county correctional facilities and 2) get more insights on racial disparity in criminal justice system.
+This dashboard visualizes racial distribution of population in correctional facilities in Champaign County，IL. It provides real-time numbers and interactive charts that allows users to 
+1) have easier access to legal data on inmates who were held in county correctional facilities;
+2) get more insights on racial disparity in criminal justice system.
 ## Example
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/22986316/21235389/29f9aae8-c2bc-11e6-8047-776f4900fa64.jpg" width="750"/>
@@ -20,7 +22,7 @@ This dashboard visualizes racial distribution of population in correctional faci
 
 ## Documentation
 - User Instructions is included in the dashboard interface.
-- [Documentation](https://github.com/xiekt1993/Portfolio/JailDashboard/blob/master/Documentation.txt) contains data sources and fields descriptions.
+- [Documentation](https://github.com/xiekt1993/Portfolio/blob/master/JailDashboard/Documentation.txt) contains data sources and fields descriptions.
 
 ## Resources
 [Champaign County Sheriff](http://www1.co.champaign.il.us/SHERIFF/HOME.PHP).

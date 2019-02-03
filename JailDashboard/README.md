@@ -5,6 +5,7 @@ This dashboard visualizes racial distribution of population in correctional faci
 2) get more insights on racial disparity in criminal justice system.
 ## Example
 <p align="center">
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/JailDashboard/Capture.JPG" width="750"/>
   <img src="https://cloud.githubusercontent.com/assets/22986316/21235389/29f9aae8-c2bc-11e6-8047-776f4900fa64.jpg" width="750"/>
 </p>
 ## Features

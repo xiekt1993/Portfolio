@@ -4,3 +4,6 @@ This project is to reimplement the show and tell paper (Vinyals et al., 2015). T
 ## Implementation
 
 ## Results
+<p align="center">
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Neural_Image_Caption_Generator/examples.png" width="750"/>
+</p>

@@ -4,6 +4,6 @@ This includes the projects related to my resume
 
 ## Image Caption Generator
 
-## Recommendation for Pick-up Points and Hot Zone Based on New York Taxi Data
+## Analyzing New York City Taxi Data Using Apache Spark
 
 ## Car Detection in Traffic Flow using Object Detection Deep Learning

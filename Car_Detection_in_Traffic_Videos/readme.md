@@ -16,16 +16,16 @@ Here we used PASCAL VOC 2012 dataset as our training dataset, which is a well-kn
 - Model
 The model we implemented can be referenced in the paper YOLO9000: Better, Faster, Stronger (Redmon et al., 2016). The author proposed a Darknet-19 model, which has 19 convolution layers and 5 max-pooling layers.
 <p align="center">
-  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/model.jpg" width="750"/>
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/model.jpg" width="200"/>
 </p>
 
 ## Results
 Due the capacity of our computation, we are only able to train a few epochs during the training. The training loss decreases very rapid in just few epochs, but we are also facing a very high testing overfitting error on the classification. And then we used a video clip captured on a vehicle driving on highway as our test case (see below). Since we have trained the model on 20 categories and then predicted on only one class with lower confidence threshold, we are hoping this could mitigate the overfitting effect. As a result, the test video managed to capture some information about the cars as the target object but there are also a number of false-positive predicted boxes. Besides, the model also gets confused when there are overlapping objects. We are hoping that add more training epochs or hyper-parameter fine tuning would help improve the performance. 
 <p align="center">
-  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/footage3.jpg" width="750"/>
-  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/footage1.jpg" width="750"/>
-  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/footage4.jpg" width="750"/>
-  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/footage2.jpg" width="750"/>
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/footage3.jpg" width="75"/>
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/footage1.jpg" width="75"/>
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/footage4.jpg" width="75"/>
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/footage2.jpg" width="75"/>
 </p>
 
 ## Combined with ArcGIS for real-time monitor

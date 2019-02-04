@@ -1,5 +1,5 @@
 # Portfolio
-This includes the projects related to my resume
+This portfolio includes the projects related to my resume.
 ## Jail Dashboards
 This dashboard extract detention information from different data resources like updated web pages, excel digit records and pdf reports. This application visualizes racial distribution of population in correctional facilities in Champaign County，IL. It provides real-time numbers and interactive charts
 ## Neural Image Caption Generator

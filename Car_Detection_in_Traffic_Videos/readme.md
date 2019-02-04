@@ -29,8 +29,16 @@ Due the capacity of our computation, we are only able to train a few epochs duri
 </p>
 
 ## Combined with ArcGIS for real-time monitor
+After conducting the object detection on traffic videos, we can export the information and create a leaflet dashboard to record and visulize the information.
+<p align="center">
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/Screen-Shot1_prediction.jpg" width="700"/>
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/Screen-Shot2_prediction.jpg" width="700"/>
+</p>
 
 ## Future Improvement
+- To improve the test accuracy, the model would make use of the temporal structure of the dashboard camera footage, such as adding RNN architecture.
+- On the other hand, the model only trained on a relative small dataset. Future improvements can be made on training on a larger one.
+- When combining with ArcGIS, more data could be added for heat map and real-time data dashboards.
 
 ## Reference
 - Ren, Shaoqing, et al. "Faster R-CNN: towards real-time object detection with region proposal networks." IEEE Transactions on Pattern Analysis & Machine Intelligence 6 (2017): 1137-1149.

@@ -18,14 +18,12 @@ Besides, the report also uses the methods of spatial autocorrelation. Spatial au
 ## Analysis of Results
 The results for the analysis on Spark is shown in Image 1. In the image, there are more ridership in several spots in the city. They are gathered in the western, central and southeast areas, which provide good incentives for taxi drivers to do business in these location. On the other hand, city administrators should also care for the traffic situation in these places because the high ridership could add to the pressure on the local traffics. In order to solve the problems, they can consider providing more public transportation or more capacity of the roads in these areas.
 <p align="center">
-  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Analyzing_New_York_City_Taxi_Data_Using_Apache_Spark/Untitled1.jpg
-" width="750"/>
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Analyzing_New_York_City_Taxi_Data_Using_Apache_Spark/Untitled1.jpg" width="750"/>
 </p>
 
 The results for the analysis on R is shown in Image 2. According to the Moran I test under randomization, the Moran I statistic is 0.9579998945, which is significantly close to 1, meaning that the ridership shows significant cluster characteristics. Moreover, there are 166 zones show such characteristics among 2246 zones in total. Based on Image 2 showing the results for LISA test in spatial autocorrelation, the 166 high-high clusters areas are mapped in the city. It shows that the clusters are mainly located in the western area. It is noted that there are also two other clusters in the central and southeast areas in the city, which have a large amount of scale compared to the western clusters. 
 <p align="center">
-  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Analyzing_New_York_City_Taxi_Data_Using_Apache_Spark/Untitled2.jpg
-" width="750"/>
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Analyzing_New_York_City_Taxi_Data_Using_Apache_Spark/Untitled2.jpg" width="750"/>
 </p>
 
 ## Conclusion

@@ -7,8 +7,11 @@ Firstly, this report will analysis the New York Taxi trajectory data to get the 
 In this report, the New York taxi data containing over 14 million taxi records during January, 2013, is used to conduct the analysis. It is provided by the course of GEOG 479 in the Department of Geology. The taxi records of the data have detailed description of the taxi communication, including medallion, hack license, vendor id, rate code, store and fwd flag, pickup datetime, dropoff datetime, passenger count, trip time, trip distance, pickup longitude, pickup latitude, dropoff longitude, dropoff latitude, payment type, fare amount, surcharge, mta tax, tip amount, tolls amount, total amount. In this report, the descriptions of passenger count and pick-up location are mainly used to demonstrate the ridership in different traffic analysis zones with the help of the shapefile of the TAZ of New York. In future analysis, more research on the description of location and time periods can be conducted to analyze the change of taxi hot zones in different location and time periods. However, in this report, all the data will be considered to provide more general suggestion for taxi drivers and city administrators.
 <p align="center">
   <img src="https://github.com/xiekt1993/Portfolio/blob/master/Analyzing_New_York_City_Taxi_Data_Using_Apache_Spark/Capture.JPG" width="750"/>
-  The raw data plotted on the map - messy and not informative
 </p>
+<p align="center">
+The raw data plotted on the map - messy and not informative
+</p>
+
 ## Analysis of Results
 
 ## Conclusion

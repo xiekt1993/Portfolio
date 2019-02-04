@@ -35,6 +35,11 @@ After conducting the object detection on traffic videos, we can export the infor
   <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/Screen-Shot2_prediction.jpg" width="700"/>
 </p>
 
+An interative maps could be made based on the real-time information.
+<p align="center">
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Car_Detection_in_Traffic_Videos/Capture1.jpg" width="700"/>
+</p>
+
 ## Future Improvement
 - To improve the test accuracy, the model would make use of the temporal structure of the dashboard camera footage, such as adding RNN architecture.
 - On the other hand, the model only trained on a relative small dataset. Future improvements can be made on training on a larger one.

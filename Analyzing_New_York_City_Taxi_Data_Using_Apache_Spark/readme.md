@@ -12,7 +12,21 @@ In this report, the New York taxi data containing over 14 million taxi records d
 The raw data plotted on the map - messy and not informative
 </p>
 
+This report will mail use the methods of Spark and spatial autocorrelation. Spark is an open-source cluster computing framework originally developed in the AMPLabat UC Berkeley. The fundamental programming abstraction is Resilient Distributed Datasets (RDD), which is a logical collection of data partitioned across machines. It can run programs up to 100x faster Hadoop MapReduce in memory, or 10x faster on disk, which is quite helpful here to analyze the urban big data of taxi trajectories. Also, it brings ease of Use and write applications quickly in Java, Scala, Python, R. Spark runs on Hadoop, Mesos, standalone, or in the cloud. It can access diverse data sources including HDFS, Cassandra, HBase, and S3.
+Besides, the report also uses the methods of spatial autocorrelation. Spatial autocorrelation definition measures how much close objects are in comparison with other close objects. Moran’s I can be classified as: positive, negative and no spatial auto-correlation. Positive spatial autocorrelation is when similar values cluster together in a map. On the other hand, Negative spatial autocorrelation is when dissimilar values cluster together in a map. In this case, after the taxi trajectory data is analyzed on Spark, the results of total ridership in different TAZ will be father analyzed by the methods of spatial autocorrelation with help of R. As a result, the deliverables include maps (thematic, cluster maps, etc.), descriptive statistics, plots and graphics (histograms, QQ plots, etc.) and global and local spatial autocorrelation measures.
+
 ## Analysis of Results
+The results for the analysis on Spark is shown in Image 1. In the image, there are more ridership in several spots in the city. They are gathered in the western, central and southeast areas, which provide good incentives for taxi drivers to do business in these location. On the other hand, city administrators should also care for the traffic situation in these places because the high ridership could add to the pressure on the local traffics. In order to solve the problems, they can consider providing more public transportation or more capacity of the roads in these areas.
+<p align="center">
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Analyzing_New_York_City_Taxi_Data_Using_Apache_Spark/Untitled1.jpg
+" width="750"/>
+</p>
+
+The results for the analysis on R is shown in Image 2. According to the Moran I test under randomization, the Moran I statistic is 0.9579998945, which is significantly close to 1, meaning that the ridership shows significant cluster characteristics. Moreover, there are 166 zones show such characteristics among 2246 zones in total. Based on Image 2 showing the results for LISA test in spatial autocorrelation, the 166 high-high clusters areas are mapped in the city. It shows that the clusters are mainly located in the western area. It is noted that there are also two other clusters in the central and southeast areas in the city, which have a large amount of scale compared to the western clusters. 
+<p align="center">
+  <img src="https://github.com/xiekt1993/Portfolio/blob/master/Analyzing_New_York_City_Taxi_Data_Using_Apache_Spark/Untitled2.jpg
+" width="750"/>
+</p>
 
 ## Conclusion
-
+The report used the methods of Spark and spatial autocorrelation to come up with the hot zone recommendation for New York and provide suggestion for city administration and taxi drivers in terms of improvement of the taxi services in these areas. The results for the analysis on Spark show that there is more ridership in the western, central and southeast areas, while the results for the analysis on R show that these areas show significant cluster characteristic. However, there are also several limitation and risks worth looking into in the future study, such as more filters on time periods and model building in spatial autocorrelation.

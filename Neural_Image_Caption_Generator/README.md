@@ -10,6 +10,6 @@ This project is to reimplement the show and tell paper (Vinyals et al., 2015). T
 </p>
 
 ## Reference
-Vinyals, Oriol, et al. "Show and tell: A neural image caption generator." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
-Chen, Xinlei, et al. "Microsoft COCO captions: Data collection and evaluation server." arXiv preprint arXiv:1504.00325(2015).
-Xu, Kelvin, et al. "Show, attend and tell: Neural image caption generation with visual attention." International conference on machine learning. 2015.
+- Vinyals, Oriol, et al. "Show and tell: A neural image caption generator." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
+- Chen, Xinlei, et al. "Microsoft COCO captions: Data collection and evaluation server." arXiv preprint arXiv:1504.00325(2015).
+- Xu, Kelvin, et al. "Show, attend and tell: Neural image caption generation with visual attention." International conference on machine learning. 2015.
